@@ -64,7 +64,6 @@ module WeatherIcons
       def register_rails_engine
         require 'sass-rails'
         require 'weather_icons/sass/rails/engine'
-        require 'weather_icons/sass/rails/railtie'
       end
 
       def register_sprockets
