@@ -8,7 +8,7 @@ module WeatherIcons
           end
 
           %w(eot svg ttf woff woff2).each do |ext|
-            app.config.assets.precompile << "weather-icons/weather-icons-webfont.#{ext}"
+            app.config.assets.precompile << "weather-icons/weathericons-regular-webfont.#{ext}"
           end
         end
       end
