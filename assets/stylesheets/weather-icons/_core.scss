@@ -9,12 +9,12 @@ $wi-font-family:                 weathericons !default;
 
 @font-face {
   font-family: '#{$wi-font-family}';
-  src: url(if($wi-sass-asset-helper, wi-font-path('#{$fa-font-path}#{$fa-font-name}.eot?v=#{$fa-version}'), '#{$wi-font-path}#{$wi-font-name}.eot?v=#{$wi-version}'));
-  src: url(if($wi-sass-asset-helper, wi-font-path('#{$fa-font-path}#{$fa-font-name}.eot?v=#{$fa-version}#iefix'), '#{$wi-font-path}#{$wi-font-name}.eot?v=#{$wi-version}#iefix')) format('embedded-opentype'),
-       url(if($wi-sass-asset-helper, wi-font-path('#{$fa-font-path}#{$fa-font-name}.woff2?v=#{$fa-version}'), '#{$wi-font-path}#{$wi-font-name}.woff2?v=#{$wi-version}')) format('woff2'),
-       url(if($wi-sass-asset-helper, wi-font-path('#{$fa-font-path}#{$fa-font-name}.woff?v=#{$fa-version}'), '#{$wi-font-path}#{$wi-font-name}.woff?v=#{$wi-version}')) format('woff'),
-       url(if($wi-sass-asset-helper, wi-font-path('#{$fa-font-path}#{$fa-font-name}.ttf?v=#{$fa-version}'), '#{$wi-font-path}#{$wi-font-name}.ttf?v=#{$wi-version}')) format('truetype'),
-       url(if($wi-sass-asset-helper, wi-font-path('#{$fa-font-path}#{$fa-font-name}.svg#weather_iconsregular'), '#{$wi-font-path}#{$wi-font-name}.svg#weather_iconsregular')) format('svg');
+  src: url(if($wi-sass-asset-helper, wi-font-path('#{$wi-font-path}#{$wi-font-name}.eot?v=#{$wi-version}'), '#{$wi-font-path}#{$wi-font-name}.eot?v=#{$wi-version}'));
+  src: url(if($wi-sass-asset-helper, wi-font-path('#{$wi-font-path}#{$wi-font-name}.eot?v=#{$wi-version}#iefix'), '#{$wi-font-path}#{$wi-font-name}.eot?v=#{$wi-version}#iefix')) format('embedded-opentype'),
+       url(if($wi-sass-asset-helper, wi-font-path('#{$wi-font-path}#{$wi-font-name}.woff2?v=#{$wi-version}'), '#{$wi-font-path}#{$wi-font-name}.woff2?v=#{$wi-version}')) format('woff2'),
+       url(if($wi-sass-asset-helper, wi-font-path('#{$wi-font-path}#{$wi-font-name}.woff?v=#{$wi-version}'), '#{$wi-font-path}#{$wi-font-name}.woff?v=#{$wi-version}')) format('woff'),
+       url(if($wi-sass-asset-helper, wi-font-path('#{$wi-font-path}#{$wi-font-name}.ttf?v=#{$wi-version}'), '#{$wi-font-path}#{$wi-font-name}.ttf?v=#{$wi-version}')) format('truetype'),
+       url(if($wi-sass-asset-helper, wi-font-path('#{$wi-font-path}#{$wi-font-name}.svg#weather_iconsregular'), '#{$wi-font-path}#{$wi-font-name}.svg#weather_iconsregular')) format('svg');
   font-weight: normal;
   font-style: normal;
 }
