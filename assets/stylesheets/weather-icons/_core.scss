@@ -1,5 +1,4 @@
 // Base Variables
-$wi-sass-asset-helper: false !default;
 $wi-font-path:         if($wi-sass-asset-helper, "weather-icons/", "../fonts/weather-icons/") !default;
 $wi-font-name:         "weathericons-regular-webfont" !default;
 
